@@ -7,6 +7,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Manrope", sans-serif;
+
 }
 *{
     margin: 0;
@@ -18,6 +20,7 @@ body{
     width:70vw;
     display: flex;
     justify-content: center;
+    border-top-left-radius:20%;
 }
 .left>img{
     height: 35vh;
@@ -28,7 +31,8 @@ body{
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;}
+    justify-content: space-between;
+}
    
     .footer{
         display: flex;
@@ -60,7 +64,11 @@ body{
     .share{
         
         background-color:hsl(210, 46%, 95%);
-        padding: 12px;
-        border-radius: 30%;
+        padding: 15px;
+        border-radius: 10%;
         
+         }
+         h1{
+            color:hsla(167, 51%, 38%, 0.5);
+            font-size: x-large;
          }
